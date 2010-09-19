@@ -43,9 +43,6 @@ limitations under the License.
 class PasswordDictionary():
     def __init__(self, char_list = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890~!@#$%^&*()_+=-`<>,./?;:\'"[]{}|\\ ', 
                  string_length = 3):
-        self.final_list = list()
-        self.stage_list = list()
-        self.current_str = ''
         self.string_len = string_length
         self.char_picklist = char_list
            
