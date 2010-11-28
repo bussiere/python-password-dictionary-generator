@@ -1,29 +1,3 @@
-TODO: 	Implement shorthand char list. e.g. [a-zA-Z]
-		Implement start word e.g  ***ben*****  in this example, we replace only the asterisks
-		Implement multi-processing. Allow users to generate the list in chunks, each chunk on its own CPU
-		Implement function hook. i.e. A user can pass in a function that will apply to each string
-		generated with the generator. e.g. p.generator(function_call=compare_md5, *kwargs) 
-		
-		Implement the ability to generate a custom dictionary file. A dictionary file of 15 char
-		strings with the full ascii char set will be to large. So, using a starting string we can 
-		add a header listing the charset and the number of links in the chain.
-		Each row will represent a chain of len N.
-		Once we have a reduced size file, we can pass it into a function that can generate the next
-		link in the chain.
-		
-		file example:
-		charset=abcdef0123456789	chainlen=10		stringlen=2		direction=forward
-		aa
-		a4
-		be
-		b8
-	    ...
-	    
-	    Once the file is done, we can iterate over it how we want. We can do all the strings first 
-	    and look for a match or we can iterate over chains.
-	    
-		
-		
 veganhacker[AT]gmail[DOT]com
 
 Copyright 2010 Ben Lambert 
